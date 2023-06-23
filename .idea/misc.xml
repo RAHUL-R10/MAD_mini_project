@@ -1,0 +1,20 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/assignments/6th_sem/MAD_mini_project/Plant_DiseaseDetection/app/src/main/res/drawable/click_on_disease_bg.xml" value="0.31" />
+        <entry key="..\:/assignments/6th_sem/MAD_mini_project/Plant_DiseaseDetection/app/src/main/res/layout/activity_login.xml" value="0.3625" />
+        <entry key="..\:/assignments/6th_sem/MAD_mini_project/Plant_DiseaseDetection/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/assignments/6th_sem/MAD_mini_project/Plant_DiseaseDetection/app/src/main/res/layout/activity_register.xml" value="0.3625" />
+        <entry key="..\:/assignments/6th_sem/MAD_mini_project/Plant_DiseaseDetection/app/src/main/res/layout/scan.xml" value="0.3625" />
+        <entry key="..\:/assignments/6th_sem/MAD_mini_project/Plant_DiseaseDetection/app/src/main/res/menu/main_menu.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

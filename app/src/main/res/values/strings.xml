@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Plant_DiseaseDetection</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="plant_disease_detection">Plant Disease Detection</string>
+    <string name="detected">DETECTED</string>
+</resources>

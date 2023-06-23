@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fade_gray">
+
+        <TextView
+            android:text="DISEASES"
+            android:background="@drawable/dashboard_bg"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:elevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/textView2"
+            android:textColor="@color/white"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/disease_listView"
+            android:paddingStart="15dp"
+            android:divider="@null"
+            android:dividerHeight="0dp"/>
+
+</LinearLayout>
