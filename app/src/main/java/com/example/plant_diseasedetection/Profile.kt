@@ -21,6 +21,7 @@ class Profile : AppCompatActivity() {
 
         val nameView = findViewById<TextView>(R.id.name_profile)
         val emailView = findViewById<TextView>(R.id.email_profile)
+        val backBtn = findViewById<Button>(R.id.back_profile)
         val logoutBtn = findViewById<Button>(R.id.logout_profile)
 
         db= FirebaseFirestore.getInstance()
@@ -32,6 +33,12 @@ class Profile : AppCompatActivity() {
                     emailView.text="EMAIL: "+tasks.get("Email").toString()
 
                 }
+        }
+
+        backBtn.setOnClickListener {
+            var intent = Intent(this,MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
 
         logoutBtn.setOnClickListener {
