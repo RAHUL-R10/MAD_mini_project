@@ -125,6 +125,7 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this@MainActivity, "Profile Clicked", Toast.LENGTH_SHORT).show()
                     val intent = Intent(this,Profile::class.java)
                     startActivity(intent)
+                    finish()
                 }
                 R.id.about -> {
                     Toast.makeText(this@MainActivity, "About Clicked", Toast.LENGTH_SHORT).show()

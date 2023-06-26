@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -91,31 +92,45 @@
                     android:id="@+id/name_profile"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text=" "
-                    android:elevation="10dp"
-                    android:textSize="20sp"
                     android:layout_marginTop="10dp"
-                    android:textColor="@color/black"/>
+                    android:elevation="10dp"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
                 <TextView
                     android:id="@+id/email_profile"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text=" "
-                    android:elevation="10dp"
-                    android:textSize="20sp"
                     android:layout_marginTop="10dp"
-                    android:textColor="@color/black"/>
+                    android:elevation="10dp"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/back_profile"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/round_btn"
+            android:elevation="10dp"
+            android:drawableStart="@drawable/arrow_back_24"
+            android:text="Back"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/logout_profile"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
             android:layout_marginStart="85dp"
+            android:layout_marginTop="50dp"
             android:background="@drawable/round_btn"
             android:elevation="10dp"
             android:text="Log Out"
