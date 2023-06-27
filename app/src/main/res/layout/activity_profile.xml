@@ -121,6 +121,7 @@
             android:layout_marginTop="50dp"
             android:background="@drawable/round_btn"
             android:elevation="10dp"
+            android:drawablePadding="-30dp"
             android:drawableStart="@drawable/arrow_back_24"
             android:text="Back"
             android:textSize="18sp" />
