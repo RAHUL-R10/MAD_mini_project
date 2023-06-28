@@ -33,7 +33,7 @@
         android:inputType="textMultiLine"
         android:maxEms="15"
         android:padding="15dp"
-        android:text="This is a plant disease detecting app made with  Android Studio. It requires the concept of Machine Learning and data set combined together, through this app we can capture or upload any plant disease and the app will be able to detect the disease and give certain solutions."
+        android:text="The Plant Disease Detection app is an Android application developed in Kotlin. It uses machine learning to identify crop diseases from images captured by the camera or selected from the gallery. The app provides solutions and remedies for the detected diseases. It includes user authentication and data storage using Firebase. This technology-driven solution empowers farmers to proactively address crop health issues, leading to improved agricultural practices and increased crop yield."
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
