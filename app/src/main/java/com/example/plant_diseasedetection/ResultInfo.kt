@@ -26,16 +26,21 @@ class ResultInfo : AppCompatActivity() {
             }
             else if(results.contains("apple black rot")){
                 mTitle.text="Apple Black Rot"
-                mImage.setImageResource(R.drawable.applerot)
+                mImage.setImageResource(R.drawable.appleblackrot)
                 mResultInfo.text =  " black rot on apple trees starts with sanitation. Because fungal spores overwinter on fallen leaves, " +
                         "mummified fruits, dead bark and cankers, it’s important to keep all the fallen debris and dead fruit cleaned up and away from the tree."
             }
             else if(results.contains("apple cedar apple rust")){
                 mTitle.text="Apple Cedar/Apple rust"
-                mImage.setImageResource(R.drawable.applerust)
+                mImage.setImageResource(R.drawable.applecedarapplerust)
                 mResultInfo.text = "Apply preventative, disease-fighting fungicides labeled for use on apples weekly, starting with bud break, " +
                         "to protect trees from spores being released by the juniper host. This occurs only once per year, so additional applications " +
                         "after this springtime spread are not necessary."
+            }
+            else if(results.contains("apple healthy")){
+                mTitle.text="Apple Healthy"
+                mImage.setImageResource(R.drawable.applehealthy)
+                mResultInfo.text = "Congratulations! Your plant is healthy"
             }
             else if(results.contains("blueberry healthy")){
                 mTitle.text="Blueberry Healthy"
@@ -56,7 +61,7 @@ class ResultInfo : AppCompatActivity() {
             }
             else if(results.contains("corn maize cercospora leaf spot gray leaf spot")){
                 mTitle.text="corn maize cercospora leaf spot gray leaf spot"
-                mImage.setImageResource(R.drawable.cornmaizecercospora)
+                mImage.setImageResource(R.drawable.cornmaizecercosporaleafspotgrayleafspot)
                 mResultInfo.text = "Crop rotation and clean plowing are effective at reducing in-field inoculum buildup. A two-year crop rotation " +
                         "away from corn is effective if reduced tillage must be maintained for conservation purposes or a one-year rotation with clean " +
                         "plowing is recommended in fields that have had a problem with the disease\n Hybrids with partial resistance to GLS are available. \n"
@@ -112,7 +117,7 @@ class ResultInfo : AppCompatActivity() {
             }
             else if(results.contains("orange haunglongbing citrus greening")){
                 mTitle.text="Orange haunglongbing citrus greening"
-                mImage.setImageResource(R.drawable.orangecitrus)
+                mImage.setImageResource(R.drawable.orangehaunglongbingcitrusgreening)
                 mResultInfo.text = "Heating HLB-infected trees in the sun by encasing them in plastic “tents” slows or" +
                         " diminishes the psyllid count, which may potentially prolong the productivity of " +
                         "trees. Steam treatment also shows promise for extending the tree’s lifespan and ability " +
