@@ -140,7 +140,7 @@ class ResultInfo : AppCompatActivity() {
             }
             else if(results.contains("pepper bell bacterial spot")){
                 mTitle.text="Pepper bell bacterial spot"
-                mImage.setImageResource(R.drawable.pepperbellbacterialspot)
+                mImage.setImageResource(R.drawable.pepperbellbacterialspot1)
                 mResultInfo.text = "1.\tPurchase disease-free seed and transplants.\n" +
                         "\n2.\tTreat seeds by soaking them for 2 minutes in a 10% chlorine bleach solution (1 part bleach; 9 parts water). " +
                         "Thoroughly rinse seeds and dry them before planting.\n"
@@ -177,11 +177,7 @@ class ResultInfo : AppCompatActivity() {
                         "\n2.\tTreat seeds by soaking them for 2 minutes in a 10% chlorine bleach solution (1 part bleach; 9 parts water). " +
                         "Thoroughly rinse seeds and dry them before planting.\n"
             }
-            else if(results.contains("pepper bell bacterial spot")){
-                mTitle.text="Pepper bell bacterial spot"
-                mImage.setImageResource(R.drawable.pepperbellbacterialspot)
-                mResultInfo.text = "Congratulations! Your plant is healthy"
-            }
+
             else if(results.contains("soybean healthy")){
                 mTitle.text="Soybean healthy"
                 mImage.setImageResource(R.drawable.soybeanhealthy)
