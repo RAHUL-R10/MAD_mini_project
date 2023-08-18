@@ -36,8 +36,17 @@ The **Plant Disease Detection** application is an Android app developed using Ko
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+![Flashscreen](screenshots/screenshot1.jpg)
+![LoginPage](screenshots/screenshot2.jpg)
+![Registration](screenshots/screenshot3.jpg)
+![HomePage](screenshots/screenshot4.jpg)
+![DrawerMenu](screenshots/screenshot5.jpg)
+![ImageSet](screenshots/screenshot6.jpg)
+![Result](screenshots/screenshot7.jpg)
+![Solution for detected disease](screenshots/screenshot8.jpg)
+![List of Supported Disease](screenshots/screenshot9.jpg)
+![ProfilePage](screenshots/screenshot10.jpg)
+
 
 
 
