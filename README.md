@@ -1,10 +1,11 @@
 
 # Plant Disease Detection Android Application
 
+**DEMO**
 
 ![demo](https://github.com/RAHUL-R10/MAD_mini_project/assets/85721390/2a3cdecb-25a2-4a8c-a20b-e34ad1ef6d28)
 
-![App Demo](demo/demo.gif)
+
 
 ## Overview
 
@@ -38,8 +39,9 @@ The **Plant Disease Detection** application is an Android app developed using Ko
 3. Build and run the app on an Android device or emulator.
 
 ## Screenshots
-
+**Flashscreen**
 ![Flashscreen](screenshots/screenshot1.jpg)
+**LoginPage**
 ![LoginPage](screenshots/screenshot2.jpg)
 ![Registration](screenshots/screenshot3.jpg)
 ![HomePage](screenshots/screenshot4.jpg)
