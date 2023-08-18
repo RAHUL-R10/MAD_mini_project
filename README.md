@@ -39,9 +39,11 @@ The **Plant Disease Detection** application is an Android app developed using Ko
 3. Build and run the app on an Android device or emulator.
 
 ## Screenshots
-**Flashscreen**
+
+## Flashscreen
 ![Flashscreen](screenshots/screenshot1.jpg)
-**LoginPage**
+
+## LoginPage
 ![LoginPage](screenshots/screenshot2.jpg)
 ![Registration](screenshots/screenshot3.jpg)
 ![HomePage](screenshots/screenshot4.jpg)
