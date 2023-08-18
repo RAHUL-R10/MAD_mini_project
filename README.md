@@ -1,7 +1,7 @@
 
 # Plant Disease Detection Android Application
 
-![App Demo](demo.gif)
+![App Demo](demo/demo.gif)
 
 ## Overview
 
