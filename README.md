@@ -2,9 +2,7 @@
 # Plant Disease Detection Android Application
 
 
-![Demo](https://github.com/RAHUL-R10/MAD_mini_project/assets/85721390/a7fddf31-8cca-4e4f-8e96-e50e4d330284)
-
-
+![demo](https://github.com/RAHUL-R10/MAD_mini_project/assets/85721390/2a3cdecb-25a2-4a8c-a20b-e34ad1ef6d28)
 
 ![App Demo](demo/demo.gif)
 
